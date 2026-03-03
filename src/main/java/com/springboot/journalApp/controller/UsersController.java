@@ -36,8 +36,8 @@ public class UsersController {
 //        return usersService.getAll();
 //    }
 
-//    @PostMapping("/createUser")
-//    public ResponseEntity<Users> createUser(@RequestBody Users user) {
+//    @PostMapping("/signUp")
+//    public ResponseEntity<Users> signUp(@RequestBody Users user) {
 //        try {
 //            usersService.saveUsers(user);
 //            return new ResponseEntity<>(user, HttpStatus.CREATED);
